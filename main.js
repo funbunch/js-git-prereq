@@ -19,7 +19,7 @@
   // Your code here
   var i;
   for(i = 0; i < books.length; i++) {
-    console.log(books[i]);
+    appendListItem(books[i].title + " by " + books[i].author + " (" + books[i].year + ")");
   }
 
     //appendListItem += books + "by" + books[i] + "(" + books[i] + ")";
