@@ -22,9 +22,6 @@
     appendListItem(books[i].title + " by " + books[i].author + " (" + books[i].year + ")");
   }
 
-    //appendListItem += books + "by" + books[i] + "(" + books[i] + ")";
-
-
   //================================
 
 }());
